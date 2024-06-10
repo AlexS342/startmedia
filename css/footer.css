@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    background-color: #262424;
+    color: #dbedff;
+    box-sizing: border-box;
+    padding: 12px 24px;
+}
+
+.footer__copyText {
+    margin: 4px;
+}
+
+.footer__navListItem {
+    margin: 4px;
+    font-size: 14px;
+}
+
+.footer__navListItemLink {
+    text-decoration: none;
+    color: #dbedff;
+    cursor: pointer;
+}
+
+.footer__navListItemLink:hover {
+    text-decoration: underline;
+}
+
+.footer__authorsText {
+    margin: 4px;
+}
+
+/*@media (min-width: 769px) and (max-width: 1024px) {}*/
+/*@media (min-width: 481px) and (max-width: 768px) {}*/
+/*@media (min-width: 0px) and (max-width: 480px) {}*/

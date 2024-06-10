@@ -1,0 +1,221 @@
+.table {
+    font-size: 12px;
+    background-color: #c9f0ff;
+}
+
+.table__head {
+    font-weight: 700;
+}
+
+.table__headName {
+    width: 250px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+}
+
+.table__headCity {
+    width: 200px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+}
+
+.table__headCar {
+    width: 250px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+}
+
+.table__headGroup {
+    width: 340px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+}
+
+.table__headItem {
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+}
+
+.table__headItemLink {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 4px;
+    text-decoration: none;
+    color: #2191e5;
+}
+
+.table__headItemLinkText {
+    margin-right: 6px;
+    text-decoration: none;
+}
+
+.table__headItemLinkIcon {
+    width: 12px;
+    height: 12px;
+}
+
+.table__headSum {
+    width: 80px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+}
+
+.table__headPlace {
+    width: 80px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+}
+
+.table__headSumLink {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 6px;
+    text-decoration: none;
+    color: #2191e5;
+}
+
+.table__headSumLinkText {
+    margin-right: 4px;
+}
+
+.table__headSumLinkIcon {
+    width: 12px;
+    height: 12px;
+}
+
+.table__row {
+    font-weight: 300;
+    background-color: #daf8ff;
+}
+
+.table__row:nth-child(2n) {
+    font-weight: 300;
+    background-color: #eaf4ff;
+}
+
+.table__row:hover {
+    background-color: #d3ff8d;
+}
+
+.table__row:hover > td {
+    background-color: #d3ff8d;
+}
+
+.table__rowName {
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table__rowCity {
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table__rowCar {
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table__rowItem {
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table__rowSum {
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table__rowPlace {
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.actionCell {
+    background-color: #beffc0;
+}
+
+.disable {
+    color: rgb(125 125 125);
+    pointer-events: none;
+    cursor: default;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .table {
+        width: 1024px;
+        font-size: 11px;
+    }
+
+    .table__headName {
+        width: 207px;
+    }
+
+    .table__headCity {
+        width: 150px;
+    }
+
+    .table__headCar {
+        width: 207px;
+    }
+
+    .table__headGroup {
+        width: 320px;
+    }
+
+    .table__headItemLinkIcon {
+        width: 11px;
+        height: 11px;
+    }
+
+    .table__headSum {
+        width: 70px;
+    }
+
+    .table__headPlace {
+        width: 70px;
+    }
+
+    .table__headSumLinkIcon {
+        width: 11px;
+        height: 11px;
+    }
+}
+
+/*@media (min-width: 769px) and (max-width: 1024px) {}*/
+/*@media (min-width: 481px) and (max-width: 768px) {}*/
+/*@media (min-width: 0px) and (max-width: 480px) {}*/

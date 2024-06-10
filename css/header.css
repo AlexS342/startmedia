@@ -1,0 +1,108 @@
+.header {
+    display: flex;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    background-color: #dbedff;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+
+.header__logo {
+    min-width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__logoName {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    color: #367cff;
+}
+
+.header__logoText {
+    margin-bottom: 6px;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 12px;
+}
+
+.header__infoHeader {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.header__infoText {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.header__infoText:last-child {
+    margin-bottom: 0;
+}
+
+.header__login {
+    min-width: 200px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__loginItem {
+    text-transform: lowercase;
+}
+
+.header__loginItemLink {
+    text-decoration: none;
+    color: #262424;
+}
+
+.header__loginItemLink:hover {
+    color: #0000cc;
+}
+
+.header__loginItemLink:active {
+    color: #36da00;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .header {
+        width: 1024px;
+    }
+
+    .header__logo {
+        min-width: 280px;
+        max-width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__logoName {
+        font-size: 32px;
+    }
+
+    .header__infoHeader {
+        font-size: 16px;
+    }
+
+    .header__login {
+        min-width: 150px;
+        max-width: 150px;
+    }
+}
+
+/*@media (min-width: 769px) and (max-width: 1024px) {}*/
+/*@media (min-width: 481px) and (max-width: 768px) {}*/
+/*@media (min-width: 0px) and (max-width: 480px) {}*/

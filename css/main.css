@@ -1,0 +1,29 @@
+body {
+    width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #262424;
+    background-color: #edfaff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    body {
+        width: 1024px;
+    }
+}
+
+.main__listDisable {
+    pointer-events: none !important;
+    cursor: default !important;
+    color: #262424 !important;
+}
+
+/*@media (min-width: 769px) and (max-width: 1024px) {}*/
+/*@media (min-width: 481px) and (max-width: 768px) {}*/
+/*@media (min-width: 0px) and (max-width: 480px) {}*/
